@@ -1,0 +1,36 @@
+h1{
+    font-family: 'Florilst Realik', sans-serif;
+    text-align: center;
+    font-size: 55px;
+    margin: 5px;
+    color: rgb(35, 54, 68);
+                                                
+                                                
+}
+p{
+    text-align: center
+}
+
+.works-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: auto;
+    gap: 10%;
+    column-width: 40%;
+}
+
+.dua{
+    width: 100%;
+}
+.coffee{
+    width: 100%;
+}
+.magazine{
+    width: 100%;
+}
+.monika{
+    width: 100%;
+}
+@media screen and (max-width: 900px) {
+    .works-content{ grid-template-columns: 1fr;}
+}
