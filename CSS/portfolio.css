@@ -21,13 +21,10 @@ p{
 
 .dua{
     width: 100%;
-    
-}
-.lipa{
-    width: 100%;
     animation-name: dua-animation;
     animation-duration: 1s;
 }
+
 .coffee{
     width: 100%;
 }
